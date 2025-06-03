@@ -3,7 +3,7 @@ const products = [
     { id: 2, name: "Samsung Ultra 24", price: 190000, image: "images/download3.jpg" },
     { id: 3, name: "JBL Speaker", price: 80000, image: "images/download4.jpg" },
     { id: 4, name: "Wireless Headphone", price: 18000, image: "images/images1.jpg" },
-    { id: 5, name: "Rolex Premium Watch", price: 2000000, image: "images/images2.jpg" }
+    { id: 5, name: "Rolex Premium Watch", price: 20000000, image: "images/images2.jpg" }
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
